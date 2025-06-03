@@ -9,7 +9,7 @@ public class ConversaoTemperatura {
             double celsius = Double.parseDouble(scanner.nextLine());
             
             double fahrenheit = (celsius * 9/5) + 32;
-            System.out.printf("%.1f°C é igual a %.1f°F%n", celsius, fahrenheit);
+            System.out.printf(celsius "C é igual a " + fahrenheit + " F %n");
             
         } catch (NumberFormatException e) {
             System.out.println("Erro: Por favor, digite um valor numérico válido.");
